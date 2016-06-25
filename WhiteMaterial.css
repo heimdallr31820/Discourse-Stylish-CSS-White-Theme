@@ -14,16 +14,7 @@ It is licensed under GPLv2 */
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
   
   
   
@@ -41,19 +32,136 @@ It is licensed under GPLv2 */
 .fancy-title {
   color: hsl(0,0%,5%) !important;
 }
-.a {
-  color: hsl(0,0,0,) !important;
-}
+.username{
+      color: hsl(0,0%,0%) !important;
+  }
+.names{
+    color: hsl(0,0%,0%) !important;
+  }
+.username a{
+     color: hsl(0,0%,0%) !important;    
+  }
+  
 .user-title {
-  color: hsl(72,72,72) !important;
+  color: hsl(0,0%,31%) !important;
+}
+.fa-heart{
+    color: hsl(351,100%,50%) !important;
+  }
+.fa-lock{
+    color:   #ff5302 !important;
+  }
+.fa-thumb-tack{
+    color: hsl(0,0%,5%) !important;
+  }
+  
+.fa-pencil{
+    color: #ffa200 !important;
+  }
+
+.fa-bookmark{
+    color: #8c02ff !important;
+  }
+  
+#reply-control .reply-area {
+	max-width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+  background-color: #343434 !important; 
+}
+  
+  .fa-envelope{
+    color: #ffc100 !important;
+  }
+  
+  .fa-gear{
+    color: #376784 !important;
+  }
+  
+  .user-stream body{
+     color: #F1F1F1 !important;
+  }
+  
+.reply {
+	background-color: hsl(0,200%,64%) !important;
+	margin-right: 2px;
+	display: inline-block;
+}
+  
+  .user-main .about .details h1, h2, h3, h3 {
+	color: #000000;
+}
+  
+  .topic-progress{
+    background-color: hsl(0,71%,64%) !important;
+  }
+  
+ .user-right .item.notification {
+	background-color: #F1F1F1 !important;
+}
+  .user-right .item.notification {
+	background-color: #F1F1F1 !important;
+}
+  
+  .user-right{
+    background-color: #F1F1F1 !important;
+  }
+.user-preferences .static {
+	color: #000000;
+	display: inline-block;
+}
+  
+  .user-content{
+    background-color: #F1F1F1 !important;
+    border: none !important;;
+  }
+  .stats-section li{
+    background-color: #F1F1F1 !important;
+  }
+  .stats-title{
+    color: #4c4c4c !important;
+  }
+  
+  .btn-primary {
+	border: none;
+	font-weight: normal;
+	background: hsl(0,71%,64%) !important;;
+}
+
+.badge-notification.new-topic{
+    color: hsl(0, 71%, 64%) !important;
+  }
+
+  .list-controls .ember-view{
+    background-color: #4c4c4c !important;
+  }
+ 
+.list-controls .category-dropdown-menu {
+	overflow-x: hidden;
+	overflow-y: auto;
+	position: absolute;
+	border: 1px solid #575757;
+	background-color: #ededed !important;;
+	z-index: 100;
+}
+.nav-pills > li.active > a, .nav-pills > li > a.active {
+  color: #d9d9d9 !important;
+	background-color:   #d04141  !important;
+  
 }
   
 html, .topic-list > tbody > tr, .topic-area {
-  background-color: #ffffff !important;
+  background-color: #eaeaea !important;
 }
 
-  body{
-    background-color: #f1f1f1;
+body{
+    background-color: #f1f1f1 !important;
+
+  }
+
+.topicbody{
+   color: #FAFAFA !important;
   }
 body > div:first-child {
   padding: 0 !important;
@@ -177,7 +285,7 @@ body input[type="text"]:focus, body input[type="password"]:focus, body input[typ
 }
 
 .alert.alert-info {
-    background-color: hsl(57%,31%,75%);
+    background-color: hsl(0,71%,64%);
     color: hsl(0,0%,5%);
 }
 blockquote, aside.quote .title, aside.onebox {
@@ -216,7 +324,7 @@ html ::-webkit-scrollbar-track {
 
 /* # Highlighted content # */
 .topic-body.highlighted {
-    background-color: hsl(0,0%,85%);
+    background-color: #F1F1F1;
 }
 }
 
