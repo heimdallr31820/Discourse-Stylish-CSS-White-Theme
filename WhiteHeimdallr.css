@@ -1,0 +1,448 @@
+
+
+@-moz-document domain("forum.teksyndicate.com") {
+/* @author sarhatabaot, heimdallr */
+/* @github sarhatabaot.github.io */
+/* # Colors
+ # Background: hsl(0,0%,100%);
+ # Light Link: hsl(180,1%,70%);
+ # Title: hsl(0,0%,13%);
+*/
+/*This was theme was created by sarhatabaot and modified by CynicRF (Heimdallr/r00tz31820)
+It is licensed under GPLv2 */
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+/* Topic Title themes the topic title at the top */  
+/* Do not use the !important tag in normal CSS
+   we are doing this because we must override a style.
+   This is not good coding practice */  
+.topic-title{
+   color: hsl(0,0%,5%) !important;
+  }  
+.fancy-title {
+  color: hsl(0,0%,5%) !important;
+}
+.a {
+  color: hsl(0,0,0,) !important;
+}
+.user-title {
+  color: hsl(72,72,72) !important;
+}
+  
+html, .topic-list > tbody > tr, .topic-area {
+  background-color: #ffffff !important;
+}
+
+  body{
+    background-color: #f1f1f1;
+  }
+body > div:first-child {
+  padding: 0 !important;
+}
+
+#post_1 .topic-body, #post_1 .topic-avatar {
+  border-top: none;
+}
+
+.topic-list .avatar.latest:not(.single) {
+  box-shadow: 0 0 4px 1px #cfcfcf;
+}
+
+.user-right .item.notification {
+  background-color: #0d0d0d !important;
+}
+
+#main-outlet .container {
+  background: none;
+}
+
+.topic-list th, .topic-list td {
+  padding: 18px 10px;
+}
+
+.show-more.has-topics {
+  top: 2px;
+}
+
+.topic-list > tbody > tr:first-of-type, .topic-list > tbody > tr {
+  border-top: none;
+  border-bottom: none;
+}
+
+.topic-map {
+  background-color: #0d0d0d !important;
+  border: none;
+}
+
+.topic-map section {
+  border-top: none;
+}
+
+.docked .d-header {
+  background-color: #1a1a1a !important;
+  border-top: none;
+  border-bottom: 2px solid #262626;
+}
+
+body .grippie {
+  border-top: 1px solid #262626;
+  background: url(/assets/grippie-d28a6f65e22c0033dcf0d63883bcc590.png) #262626 no-repeat center 3px;
+}
+
+#reply-control {
+  transition: height 0.35s ease-in-out;
+  background-color: #1a1a1a;
+}
+
+#reply-control .d-editor {
+  border: 1px solid #1a1a1a;
+}
+
+#reply-control .contents .d-editor-preview {
+  border: 1px dashed #1a1a1a;
+}
+
+#reply-control .wmd-control .d-editor-input, #reply-control .wmd-control .d-editor-preview, #reply-control .wmd-control .d-editor-button-bar {
+  background-color: #0d0d0d;
+}
+
+#reply-control .d-editor-button-bar {
+  border-bottom: 2px solid #262626;
+}
+
+#reply-control .wmd-controls .d-editor-input, #reply-control .wmd-controls .wmd-control .d-editor-preview, #reply-control .wmd-control .wmd-controls .d-editor-preview, #reply-control .wmd-controls .d-editor-button-bar, #reply-control .wmd-controls .d-editor-preview, #reply-control .d-editor-button-bar {
+  background-color: #0d0d0d;
+}
+
+body input[type="text"], body input[type="password"], body input[type="datetime"], body input[type="datetime-local"], body input[type="date"], body input[type="month"], body input[type="time"], body input[type="week"], body input[type="number"], body input[type="email"], body input[type="url"], body input[type="search"], body input[type="tel"], body input[type="color"] {
+  background-color: #1a1a1a;
+  border: 1px solid #595959;
+  border-radius: 3px;
+  box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+body input[type="text"]:focus, body input[type="password"]:focus, body input[type="datetime"]:focus, body input[type="datetime-local"]:focus, body input[type="date"]:focus, body input[type="month"]:focus, body input[type="time"]:focus, body input[type="week"]:focus, body input[type="number"]:focus, body input[type="email"]:focus, body input[type="url"]:focus, body input[type="search"]:focus, body input[type="tel"]:focus, body input[type="color"]:focus {
+  border-color: #666666;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.3), 0 0 8px gray;
+}
+
+.select2-container {
+  border: 1px solid gray;
+}
+
+.select2-container .select2-choice, .select2-container .select-container-active, .select2-container .select2-dropdown-open a.select2-choice, .select2-dropdown-open .select2-container a.select2-choice {
+  border: 1px solid gray;
+}
+
+.select2-container .select-container-active {
+  box-shadow: gray 0px 0px 6px 0px;
+}
+
+.select-drop-active {
+  border: 1px solid gray;
+  border-top: 0;
+}
+
+.badge-category-parent-bg, .badge-category-bg {
+  width: 5px !important;
+}
+
+.menu-panel {
+  background-color: #1a1a1a;
+  border: 1px solid #404040;
+}
+
+.lightbox-wrapper .meta {
+  background-color: #1a1a1a;
+}
+
+.alert.alert-info {
+    background-color: hsl(57%,31%,75%);
+    color: hsl(0,0%,5%);
+}
+blockquote, aside.quote .title, aside.onebox {
+    border-left: 5px solid hsl(0,0%,80%);
+    background-color: hsl(0,0%,85%);
+    clear: both;
+}
+aside.quote .title, aside.onebox header a[href] {
+    color: hsl(0,0%,10%);
+}
+
+
+}
+
+@-moz-document domain("forum.teksyndicate.com") {
+/* # Scroll bars # */
+/* # It's important that these stay roughly the same across all browsers, I prefer personally that we don't mess with these at all # */
+html ::-webkit-scrollbar-thumb {
+    width: 8px;
+    background-color: hsl(0,0%,80%);
+}
+html ::-webkit-scrollbar-track {
+    width: 8px;
+    background-color: #FF3333 !important;;
+    opacity: 0.1;
+    border-left: 2px solid hsl(0,0%,90%);
+    border-right: 2px solid hsl(0,0%,90%);
+}
+}
+
+@-moz-document domain("forum.teksyndicate.com") {
+/* # Borders # */
+.topic-avatar, .topic-body {
+    border-top: 1px solid hsl(0,0%,85%);
+}
+
+/* # Highlighted content # */
+.topic-body.highlighted {
+    background-color: hsl(0,0%,85%);
+}
+}
+
+@-moz-document domain("forum.teksyndicate.com") {
+/* # Typography # */
+body {
+    color: hsl(0,0%,5%);
+}
+#topic-footer-buttons p {
+    color: hsl(0,0%,25%);
+}
+.topic-list a.title.visited:not(.badge-notification), .topic-list a.title {
+    color: hsl(0,0%,15%);
+}
+
+.topic-list a.title:visited:not(.badge-notification) {
+    color: hsl(180,1%,70%);
+}
+/* # add to sass file # */
+.badge-wrapper.bullet span.badge-category {
+    color: hsl(0,0%,40%)!important;
+}
+}
+
+@-moz-document domain("forum.teksyndicate.com") {
+code[class*=lang-], pre[class*=lang-] {
+  font-family: Consolas, "Courier New", Courier, monospace;
+  text-align: left;
+  direction: ltr;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+pre[class*=lang-] {
+  padding: 1em;
+  margin: .5em 0;
+  overflow: auto;
+  border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="lang-"], code {
+  padding: .1em;
+  border-radius: .3em;
+}
+/* # HLJS # (github flavor) */
+.hljs, pre code {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: hsl(0,0%,97%);
+  -webkit-text-size-adjust: none;
+}
+
+.hljs-comment,
+.hljs-template_comment,
+.diff .hljs-header,
+.hljs-javadoc {
+  color: hsl(120,1%,59%);
+  font-style: italic;
+}
+
+.hljs-keyword,
+.css .rule .hljs-keyword,
+.hljs-winutils,
+.javascript .hljs-title,
+.nginx .hljs-title,
+.hljs-subst,
+.hljs-request,
+.hljs-status {
+  color: #333;
+  font-weight: bold;
+}
+
+.hljs-number,
+.hljs-hexcolor,
+.ruby .hljs-constant {
+  color: #008080;
+}
+
+.hljs-string,
+.hljs-tag .hljs-value,
+.hljs-phpdoc,
+.hljs-dartdoc,
+.tex .hljs-formula {
+  color: #d14;
+}
+
+.hljs-title,
+.hljs-id,
+.scss .hljs-preprocessor {
+  color: hsl(264,28%,50%);
+  font-weight: bold;
+}
+
+.javascript .hljs-title,
+.hljs-list .hljs-keyword,
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-class .hljs-title,
+.hljs-type,
+.vhdl .hljs-literal,
+.tex .hljs-command {
+  color: #458;
+  font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-tag .hljs-title,
+.hljs-rules .hljs-property,
+.django .hljs-tag .hljs-keyword {
+  color: #000080;
+  font-weight: normal;
+}
+
+.hljs-attribute,
+.hljs-variable,
+.lisp .hljs-body {
+  color: #008080;
+}
+
+.hljs-regexp {
+  color: #009926;
+}
+
+.hljs-symbol,
+.ruby .hljs-symbol .hljs-string,
+.lisp .hljs-keyword,
+.clojure .hljs-keyword,
+.scheme .hljs-keyword,
+.tex .hljs-special,
+.hljs-prompt {
+  color: #990073;
+}
+
+.hljs-built_in {
+  color: #0086b3;
+}
+
+.hljs-preprocessor,
+.hljs-pragma,
+.hljs-pi,
+.hljs-doctype,
+.hljs-shebang,
+.hljs-cdata {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: #fdd;
+}
+
+.hljs-addition {
+  background: #dfd;
+}
+
+.diff .hljs-change {
+  background: #0086b3;
+}
+
+.hljs-chunk {
+  color: #aaa;
+}
+}
+
+@-moz-document domain("forum.teknsyndicate.com") {
+/* # inject title, for black style. Or apply using background: url(...) # 
+.ember-view title {
+    font-family: orbitron;
+    color: hsl(0,0%,0%);
+    font-size: 4rem;
+    content: "teksyndicate";
+}
+.logo-big {
+    display: none !important; 
+} */
+}
+
+@-moz-document domain("forum.teksyndicate.com") {
+/* # KBD # */
+kbd {
+    display: inline-block;
+    padding: 3px 5px;
+    font-size: 11px;
+    line-height: 10px;
+    color: #555;
+    vertical-align: middle;
+    background-color: #fcfcfc;
+    border: solid 1px #ccc;
+    border-bottom-color: #bbb;
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 #bbb;
+}
+}
+
+@-moz-document domain("forum.teksyndicate.com") {
+/* # Keyboard Shortcuts # */
+.modal-inner-container {
+    background-color: hsl(0,0%,100%);
+}
+.modal-inner-container h3 {
+    color: hsl(0,0%,0%);
+}
+.modal-inner-container b, #keyboard-shortcuts-help ul b {
+    display: inline-block;
+    padding: 4px 5px;
+    line-height: 10px;
+    color: #555;
+    vertical-align: middle;
+    background-color: #fcfcfc;
+    border: solid 1px #ccc;
+    border-bottom-color: #bbb;
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 #bbb;
+}
+}
