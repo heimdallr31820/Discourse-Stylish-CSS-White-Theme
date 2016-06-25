@@ -65,6 +65,50 @@ It is licensed under GPLv2 */
 .fa-bookmark{
     color: #8c02ff !important;
   }
+  
+  .fa-envelope{
+    color: #ffc100 !important;
+  }
+  
+  .fa-gear{
+    color: #376784 !important;
+  }
+  
+  .user-stream body{
+     color: #F1F1F1 !important;
+  }
+  
+ .user-right .item.notification {
+	background-color: #F1F1F1 !important;
+}
+  .user-right .item.notification {
+	background-color: #F1F1F1 !important;
+}
+  
+  .user-right{
+    background-color: #F1F1F1 !important;
+  }
+.user-preferences .static {
+	color: #000000;
+	display: inline-block;
+}
+  
+  .user-content{
+    background-color: #F1F1F1 !important;
+    border: none !important;;
+  }
+  .stats-section li{
+    background-color: #F1F1F1 !important;
+  }
+  .stats-title{
+    color: #4c4c4c !important;
+  }
+  
+  .btn-primary {
+	border: none;
+	font-weight: normal;
+	background: hsl(0,71%,64%) !important;;
+}
 
 .badge-notification.new-topic{
     color: hsl(0, 71%, 64%) !important;
@@ -84,8 +128,12 @@ html, .topic-list > tbody > tr, .topic-area {
   background-color: #ffffff !important;
 }
 
-  body{
+body{
     background-color: #f1f1f1;
+  }
+
+.topicbody{
+   color: #FAFAFA !important;
   }
 body > div:first-child {
   padding: 0 !important;
@@ -248,7 +296,7 @@ html ::-webkit-scrollbar-track {
 
 /* # Highlighted content # */
 .topic-body.highlighted {
-    background-color: hsl(0,0%,85%);
+    background-color: #F1F1F1;
 }
 }
 
