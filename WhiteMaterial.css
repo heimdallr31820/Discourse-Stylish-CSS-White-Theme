@@ -40,11 +40,44 @@ It is licensed under GPLv2 */
 .fancy-title {
   color: hsl(0,0%,5%) !important;
 }
-.a {
-  color: hsl(0,0,0,) !important;
-}
+.username{
+      color: hsl(0,0%,0%) !important;
+  }
+.names{
+    color: hsl(0,0%,0%) !important;
+  }
+.username a{
+     color: hsl(0,0%,0%) !important;    
+  }
+  
 .user-title {
-  color: hsl(72,72,72) !important;
+  color: hsl(0,0%,31%) !important;
+}
+.fa-heart{
+    color: hsl(351,100%,50%) !important;
+  }
+.fa-lock{
+    color:   #ff5302 !important;
+  }
+.fa-thumb-tack{
+    color: hsl(0,0%,5%) !important;
+  }
+.fa-bookmark{
+    color: #8c02ff !important;
+  }
+
+.badge-notification.new-topic{
+    color: hsl(0, 71%, 64%) !important;
+  }
+
+  .list-controls .ember-view{
+    background-color: #4c4c4c !important;
+  }
+  
+.nav-pills > li.active > a, .nav-pills > li > a.active {
+  color: #d9d9d9 !important;
+	background-color:   #d04141  !important;
+  
 }
   
 html, .topic-list > tbody > tr, .topic-area {
@@ -176,7 +209,7 @@ body input[type="text"]:focus, body input[type="password"]:focus, body input[typ
 }
 
 .alert.alert-info {
-    background-color: hsl(57%,31%,75%);
+    background-color: hsl(0,71%,64%);
     color: hsl(0,0%,5%);
 }
 blockquote, aside.quote .title, aside.onebox {
