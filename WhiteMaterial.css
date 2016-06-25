@@ -9,27 +9,7 @@
 */
 /*This was theme was created by sarhatabaot and modified by CynicRF (Heimdallr/r00tz31820)
 It is licensed under GPLv2 */
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
   
 /* Topic Title themes the topic title at the top */  
 /* Do not use the !important tag in normal CSS
@@ -40,12 +20,6 @@ It is licensed under GPLv2 */
   }  
 .fancy-title {
   color: hsl(0,0%,5%) !important;
-}
-.a {
-  color: hsl(0,0,0,) !important;
-}
-.user-title {
-  color: hsl(72,72,72) !important;
 }
   
 html, .topic-list > tbody > tr, .topic-area {

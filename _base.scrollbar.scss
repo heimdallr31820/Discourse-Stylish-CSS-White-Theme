@@ -1,0 +1,11 @@
+html ::-webkit-scrollbar-thumb {
+    width: 8px;
+    background-color: hsl(0,0%,80%);
+}
+html ::-webkit-scrollbar-track {
+    width: 8px;
+    background-color: hsl(0,0%,90%);
+    opacity: 0.1;
+    border-left: 2px solid hsl(0,0%,90%);
+    border-right: 2px solid hsl(0,0%,90%);
+}

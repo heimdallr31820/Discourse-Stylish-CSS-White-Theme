@@ -1,0 +1,12 @@
+.topic-list,.topic-list-item {
+    background-color: $inuit-base-background-color !important;
+}
+
+.topic-list a.title.visited:not(.badge-notification), .topic-list a.title {
+    color: hsl(0,0%,15%);
+}
+
+.topic-list a.title:visited:not(.badge-notification) {
+    color: hsl(180,1%,70%);
+}
+    

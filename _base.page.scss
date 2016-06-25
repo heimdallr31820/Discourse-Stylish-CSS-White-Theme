@@ -1,0 +1,13 @@
+
+body input[type="text"], body input[type="password"], body input[type="datetime"], body input[type="datetime-local"], body input[type="date"], body input[type="month"], body input[type="time"], body input[type="week"], body input[type="number"], body input[type="email"], body input[type="url"], body input[type="search"], body input[type="tel"], body input[type="color"] {
+  background-color: #1a1a1a;
+  border: 1px solid #595959;
+  border-radius: 3px;
+  box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+body input[type="text"]:focus, body input[type="password"]:focus, body input[type="datetime"]:focus, body input[type="datetime-local"]:focus, body input[type="date"]:focus, body input[type="month"]:focus, body input[type="time"]:focus, body input[type="week"]:focus, body input[type="number"]:focus, body input[type="email"]:focus, body input[type="url"]:focus, body input[type="search"]:focus, body input[type="tel"]:focus, body input[type="color"]:focus {
+  border-color: #666666;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.3), 0 0 8px gray;
+}
