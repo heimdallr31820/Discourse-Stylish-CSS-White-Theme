@@ -13,16 +13,7 @@ It is licensed under GPLv2 */
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
   
   
   
@@ -62,9 +53,22 @@ It is licensed under GPLv2 */
 .fa-thumb-tack{
     color: hsl(0,0%,5%) !important;
   }
+  
+.fa-pencil{
+    color: #ffa200 !important;
+  }
+
 .fa-bookmark{
     color: #8c02ff !important;
   }
+  
+#reply-control .reply-area {
+	max-width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+  background-color: #343434 !important; 
+}
   
   .fa-envelope{
     color: #ffc100 !important;
@@ -76,6 +80,20 @@ It is licensed under GPLv2 */
   
   .user-stream body{
      color: #F1F1F1 !important;
+  }
+  
+.reply {
+	background-color: hsl(0,200%,64%) !important;
+	margin-right: 2px;
+	display: inline-block;
+}
+  
+  .user-main .about .details h1, h2, h3, h3 {
+	color: #000000;
+}
+  
+  .topic-progress{
+    background-color: hsl(0,71%,64%) !important;
   }
   
  .user-right .item.notification {
@@ -117,7 +135,15 @@ It is licensed under GPLv2 */
   .list-controls .ember-view{
     background-color: #4c4c4c !important;
   }
-  
+ 
+.list-controls .category-dropdown-menu {
+	overflow-x: hidden;
+	overflow-y: auto;
+	position: absolute;
+	border: 1px solid #575757;
+	background-color: #ededed !important;;
+	z-index: 100;
+}
 .nav-pills > li.active > a, .nav-pills > li > a.active {
   color: #d9d9d9 !important;
 	background-color:   #d04141  !important;
@@ -125,11 +151,12 @@ It is licensed under GPLv2 */
 }
   
 html, .topic-list > tbody > tr, .topic-area {
-  background-color: #ffffff !important;
+  background-color: #eaeaea !important;
 }
 
 body{
-    background-color: #f1f1f1;
+    background-color: #f1f1f1 !important;
+
   }
 
 .topicbody{
